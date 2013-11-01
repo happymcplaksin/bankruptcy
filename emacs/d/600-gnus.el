@@ -1,4 +1,5 @@
 (setq gnus-select-method '(nntp "news.gmane.org"))
+(gnus)
 
 ;; C-w in Group buffer always causes me grief
 (gnus-define-keys gnus-group-mode-map "\C-w"
@@ -12,3 +13,5 @@
  gnus-list-groups-with-ticked-articles nil
  gnus-topic-display-empty-topics nil
  gnus-topic-indent-level 4)
+
+(add-hook 'message-mode-hook 'flyspell-mode)
