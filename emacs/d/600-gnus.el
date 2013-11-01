@@ -5,3 +5,5 @@
 		  (lambda ()
 		    (interactive)
 		    (message "Saved your own butt, didn't you?")))
+
+(define-key gnus-group-mode-map "z" 'helm-happy)
