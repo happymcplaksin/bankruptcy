@@ -30,3 +30,12 @@
 (setq bbdb-quiet-about-name-mismatches t)
 
 (add-hook 'mail-setup-hook 'bbdb-mail-aliases)
+
+(load-library "adv-random-sig")
+(setq adv-signature-dir (expand-file-name "~/etc/emacs/sigs/"))
+(setq adv-signature-head (expand-file-name "~/etc/emacs/sigs-head"))
+
+(setq gnus-posting-styles 
+      '(
+	(".*"
+	 (signature adv-random-signature-no-sep))))
