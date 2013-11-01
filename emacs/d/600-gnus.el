@@ -30,6 +30,20 @@
 (setq bbdb-quiet-about-name-mismatches t)
 
 (add-hook 'mail-setup-hook 'bbdb-mail-aliases)
+(add-hook 'gnus-group-mode-hook 'gnus-topic-mode)
+
+(setq 
+ gnus-treat-date-local 'head
+ gnus-treat-display-face t
+ gnus-treat-display-x-face t
+ gnus-treat-hide-citation t
+ gnus-treat-hide-signature t
+ gnus-treat-leading-whitespace 'head
+ gnus-treat-mail-picon nil
+ gnus-treat-newsgroups-picon nil
+ gnus-treat-strip-banner t
+ gnus-treat-strip-list-identifiers t
+)
 
 (load-library "adv-random-sig")
 (setq adv-signature-dir (expand-file-name "~/etc/emacs/sigs/"))
@@ -39,3 +53,8 @@
       '(
 	(".*"
 	 (signature adv-random-signature-no-sep))))
+
+(setq gnus-message-archive-group
+      (concat "nnimap+localhost:sent-"
+	      (format-time-string "%Y")))
+               
