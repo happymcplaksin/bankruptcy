@@ -2,8 +2,8 @@
 
 ;; my directories
 (setq map-emacs-var (expand-file-name "~/var/emacs"))
-(setq map-emacs-lisp (expand-file-name "~/src/elisp"))
-(setq map-emacs-info (expand-file-name "~/src/elisp/info"))
+(setq map-emacs-lisp (expand-file-name "~/etc/elisp"))
+(setq map-emacs-info (expand-file-name "~/etc/elisp/info"))
 (setq user-emacs-directory map-emacs-var)
 
 ;; variables which set pathnames
@@ -19,3 +19,4 @@
 (setq url-cache-directory (concat map-emacs-var "/url/cache"))
 (setq savehist-file (concat map-emacs-var "/savehist"))
 
+(add-to-list 'load-path map-emacs-lisp)
