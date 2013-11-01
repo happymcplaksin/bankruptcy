@@ -1,6 +1,9 @@
 ;; Poor man's version control for MELPA packages.
 ;; Once in a while I save the value of package-alist.
 (setq package-alist
+      (bbdb .
+	    [(20130728 2143)
+	     nil "core of BBDB [git]"])
       ((w3m .
 	    [(20131021 2047)
 	     nil "an Emacs interface to w3m [cvs]"])
