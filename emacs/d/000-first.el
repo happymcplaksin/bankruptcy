@@ -2,8 +2,8 @@
 
 ;; my directories
 (setq map-emacs-var (expand-file-name "~/var/emacs"))
-(setq map-emacs-lisp (expand-file-name "~/etc/elisp"))
-(setq map-emacs-info (expand-file-name "~/etc/elisp/info"))
+(setq map-emacs-lisp (expand-file-name "~/etc/emacs/elisp"))
+(setq map-emacs-info (expand-file-name "~/etc/emacs/elisp/info"))
 (setq user-emacs-directory map-emacs-var)
 
 ;; variables which set pathnames
