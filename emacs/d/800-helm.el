@@ -2,8 +2,8 @@
 (helm-mode)
 (global-set-key (kbd "C-^") 'helm-happy)
 (define-key helm-map (kbd "C-^") 'helm-exit-minibuffer)
-(setq helm-idle-delay 0.1)
-(setq helm-input-idle-delay .1)
+(setq helm-idle-delay 0.05)
+(setq helm-input-idle-delay .05)
 
 (defun helm-happy ()
   "helm-happy, duped helm-mini plus changes"
