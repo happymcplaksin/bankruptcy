@@ -10,4 +10,8 @@
 
 (server-start)
 
+(setq display-time-day-and-date t
+      display-time-mail-file nil
+      display-time-default-load-average nil
+      display-time-24hr-format t)
 (display-time)
