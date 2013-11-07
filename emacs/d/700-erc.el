@@ -1,4 +1,8 @@
 (require 'erc)
+
+;; Without this erc-track steals C-c from term-mode
+(setq erc-track-enable-keybindings nil)
+
 (setq erc-modules '(autoaway autojoin button completion fill irccontrols log match netsplit noncommands readonly ring services scrolltobottom stamp spelling track))
 (erc-update-modules)
 
