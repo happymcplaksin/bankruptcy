@@ -6,8 +6,6 @@
 
 (put 'upcase-region 'disabled nil)
 
-(setq term-debug nil)
-
 (server-start)
 
 (setq display-time-day-and-date t
@@ -15,3 +13,10 @@
       display-time-default-load-average nil
       display-time-24hr-format t)
 (display-time)
+
+(setq-default indent-tabs-mode nil)
+(setq tab-width 4)
+(setq puppet-indent-level 4)
+(setq ruby-indent-level 4)
+
+(global-set-key "\C-cj" 'goto-line)
