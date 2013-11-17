@@ -28,11 +28,11 @@
  erc-auto-query 'bury
  erc-timestamp-format "[%D %H:%M]"
  erc-timestamp-format-right " [%D %H:%M]"
- erc-hide-list '("JOIN" "KICK" "MODE" "NICK" "PART" "QUIT")
+ erc-hide-list '("301" "305" "306" "AWAY" "JOIN" "MODE" "KICK" "NICK" "PART" "QUIT"))
  erc-notifications-mode t
  erc-nick "happymcplaksin"
  erc-track-exclude nil
- erc-track-exclude-types '("NICK" "MODE" "305" "306" "QUIT" "JOIN")
+ erc-track-exclude-types '("301" "305" "306" "AWAY" "JOIN" "MODE" "KICK" "NICK" "PART" "QUIT")
  erc-server "localhost"
 )
 (erc-services-mode)
