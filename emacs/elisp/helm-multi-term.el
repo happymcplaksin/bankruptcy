@@ -1,4 +1,4 @@
-;; anything-multi-term.el -- anything source for creating multiple M-x term's
+;; helm-multi-term.el -- helm source for creating multiple M-x term's
 ;;
 ;; happy@mcplaksin.org
 ;;
@@ -6,7 +6,7 @@
 ;; (or telnet, etc).  Each buffer is named after the host you connected to
 ;; (it can also have a random name of your choosing :) Create
 ;; multi-term-host-list with an entry for each of your hosts, add
-;; anything-source-multi-term to anything-sources and then use anything to
+;; helm-source-multi-term to helm-sources and then use helm to
 ;; create a M-x term for a host in your list.
 ;;
 ;; I'm a sysadmin and end up connecting to many machines.  I prefer M-x
@@ -40,7 +40,7 @@
 ;;         ("pizza.example.com" nil "oracle")
 ;;         ))
 
-(defvar anything-multi-term-version
+(defvar helm-multi-term-version
   "0.1")
 
 (defvar multi-term-localhost
@@ -220,11 +220,11 @@ This is part of `kill-buffer-hook' for multi-terms."
     ;; otherwise, the list is simply all possibilities
     multi-term-host-list))
 
-;; anything config for creating multi-term.
+;; helm config for creating multi-term.
 ;;
-;; switching to existing terms is already covered by anything's
+;; switching to existing terms is already covered by helm's
 ;; buffer-switching source)
-(defvar anything-source-multi-term
+(defvar helm-source-multi-term
   '((name . "multi-term")
     (candidates
      . (lambda ()
@@ -242,4 +242,4 @@ This is part of `kill-buffer-hook' for multi-terms."
 	 . (lambda (term-info)
 	     (multi-term-new (car term-info))))))))
 
-(provide 'anything-multi-term)
+(provide 'helm-multi-term)

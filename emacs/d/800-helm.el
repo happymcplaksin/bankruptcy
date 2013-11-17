@@ -12,5 +12,6 @@
   (let ((helm-ff-transformer-show-only-basename nil))
     (helm-other-buffer '(helm-source-noodle
 			 helm-source-buffers-list
+                         helm-source-multi-term
 			 helm-source-recentf)
                        "*helm happy*")))
