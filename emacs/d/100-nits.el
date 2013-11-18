@@ -20,3 +20,13 @@
 (setq ruby-indent-level 4)
 
 (global-set-key "\C-cj" 'goto-line)
+
+(require 'edit-server)
+(edit-server-start)
+(setq edit-server-new-frame nil)
+
+(setq ispell-silently-savep t)
+(setq ispell-program-name "ispell")
+(global-set-key "\C-csw" 'ispell-word)
+(global-set-key "\C-csb" 'ispell-buffer)
+(global-set-key "\C-csr" 'ispell-region)
