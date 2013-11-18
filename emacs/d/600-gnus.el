@@ -52,6 +52,7 @@
 (setq gnus-posting-styles 
       '(
 	(".*"
+         (bcc "happy@gshadow.usg.edu")
 	 (signature adv-random-signature-no-sep))))
 
 (setq gnus-message-archive-group
