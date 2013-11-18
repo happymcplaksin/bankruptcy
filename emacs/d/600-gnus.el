@@ -58,3 +58,4 @@
       (concat "nnimap+localhost:sent-"
 	      (format-time-string "%Y")))
                
+(setq gnus-gcc-mark-as-read t)
