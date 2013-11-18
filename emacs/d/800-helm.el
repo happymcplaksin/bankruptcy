@@ -1,4 +1,5 @@
-;; helm
+(require 'helm-noodle-multi-term)
+
 (helm-mode)
 (global-set-key (kbd "C-^") 'helm-happy)
 (define-key helm-map (kbd "C-^") 'helm-exit-minibuffer)
