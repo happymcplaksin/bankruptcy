@@ -1,0 +1,4 @@
+#!/bin/sh
+
+xsel | xvkbd -xsendevent -file - 2> /dev/null
+

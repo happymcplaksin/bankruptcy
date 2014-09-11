@@ -1,0 +1,21 @@
+#!/bin/bash -x
+
+# Find window named $1
+# If found, raise it
+# Else run $2
+# For example: 
+#    raise 'Mozilla Firefox' firefox
+
+# Find Chromium with '-Chromium'
+
+find="$1"
+command="$2"
+
+win=$(xdotool search --name -- "$find" 2>/dev/null|tail -1)
+if [[ -z $win ]]
+then
+  $command
+else
+  xdotool windowactivate $win
+fi
+
