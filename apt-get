@@ -1,4 +1,5 @@
 bitlbee-libpurple
+dovecot-imapd
 emacs24
 git
 google-chrome-stable
@@ -6,6 +7,7 @@ htop
 iftop
 iotop
 ispell
+ntp
 pidgin-sipe
 screen
 ssh
