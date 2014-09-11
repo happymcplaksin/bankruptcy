@@ -12,7 +12,7 @@
 (erc-autoaway-mode)
 
 (setq
- erc-autojoin-channels-alist (quote (("freenode.net" "#logstash" "#peachnet" "#rvc" "#rbvmomi" "#teamdowntime" "#yaketystats" "#itsup")))
+ erc-autojoin-channels-alist (quote (("freenode.net" "#noodle" "#peachnet" "#grafana" "#teamdowntime" "#yaketystats")))
  erc-join-buffer 'buffer)
 (erc-autojoin-mode)
 
@@ -28,13 +28,14 @@
  erc-auto-query 'bury
  erc-timestamp-format "[%D %H:%M]"
  erc-timestamp-format-right " [%D %H:%M]"
- erc-hide-list '("301" "305" "306" "AWAY" "JOIN" "MODE" "KICK" "NICK" "PART" "QUIT"))
+ erc-hide-list '("301" "305" "306" "AWAY" "JOIN" "MODE" "KICK" "NICK" "PART" "QUIT")
  erc-notifications-mode t
  erc-nick "happymcplaksin"
  erc-track-exclude nil
  erc-track-exclude-types '("301" "305" "306" "AWAY" "JOIN" "MODE" "KICK" "NICK" "PART" "QUIT")
  erc-server "localhost"
 )
+
 (erc-services-mode)
 
 (erc :server "irc.freenode.net")
