@@ -39,6 +39,6 @@
 (erc-services-mode)
 
 (erc :server "irc.freenode.net")
-(erc :server "localhost" :nick "happy")
+(erc :server "localhost")
 
 ;; (erc-scrolltobottom-mode)
