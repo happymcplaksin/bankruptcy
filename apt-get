@@ -1,9 +1,11 @@
 bitlbee-libpurple
 bundler
+curl
 dovecot-imapd
 emacs24
 git
 google-chrome-stable
+gnome-tweak-tool
 htop
 iftop
 iotop
