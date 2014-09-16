@@ -18,18 +18,18 @@
 
 (setq user-mail-address "happy@usg.edu")
 
-(require 'bbdb)
-(bbdb-initialize 'gnus 'message)
-(setq bbdb-default-area-code 706)
-(setq bbdb/mail-auto-create-p nil)
-(setq bbdb-notice-auto-save-file t)
-(setq bbdb-use-pop-up nil)
-(setq bbdb-completion-display-record nil)
-(setq bbdb-complete-name-allow-cycling t)
-(setq bbdb-dwim-net-address-allow-redundancy t)
-(setq bbdb-quiet-about-name-mismatches t)
+;(require 'bbdb)
+;(bbdb-initialize 'gnus 'message)
+;(setq bbdb-default-area-code 706)
+;(setq bbdb/mail-auto-create-p nil)
+;(setq bbdb-notice-auto-save-file t)
+;(setq bbdb-use-pop-up nil)
+;(setq bbdb-completion-display-record nil)
+;(setq bbdb-complete-name-allow-cycling t)
+;(setq bbdb-dwim-net-address-allow-redundancy t)
+;(setq bbdb-quiet-about-name-mismatches t)
 
-(add-hook 'mail-setup-hook 'bbdb-mail-aliases)
+;(add-hook 'mail-setup-hook 'bbdb-mail-aliases)
 (add-hook 'gnus-group-mode-hook 'gnus-topic-mode)
 
 (setq 
@@ -60,3 +60,7 @@
 	      (format-time-string "%Y")))
                
 (setq gnus-gcc-mark-as-read t)
+
+(gnus-topic-mode)
+
+(setq gnus-subscribe-newsgroup-method 'gnus-subscribe-killed)

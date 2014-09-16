@@ -1,0 +1,2 @@
+[alias]
+        ci = !git pull --rebase && git push
