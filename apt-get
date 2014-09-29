@@ -8,10 +8,12 @@ google-chrome-stable
 gnome-tweak-tool
 htop
 iftop
+imagemagick
 iotop
 ispell
 mailutils
 ntp
+openjdk-7-jdk 
 pidgin-sipe
 preload
 rdesktop
@@ -23,3 +25,5 @@ vim
 xdotool
 xsel
 xvkbd
+samba
+cifs-utils

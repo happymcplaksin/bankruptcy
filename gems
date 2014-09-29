@@ -1,5 +1,7 @@
 httpclient
 influxdb
 pry
+rake
 rbvmomi
 rvc
+yard

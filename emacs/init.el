@@ -18,3 +18,4 @@
 	  (load-library (concat directory "/" file)))
 	(setq files (cdr files))))))
 (map-load-libraries-in-order (concat map-emacs-etc "/d"))
+(put 'downcase-region 'disabled nil)
