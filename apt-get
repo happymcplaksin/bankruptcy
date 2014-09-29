@@ -1,11 +1,12 @@
 bitlbee-libpurple
 bundler
+cifs-utils
 curl
 dovecot-imapd
 emacs24
 git
-google-chrome-stable
 gnome-tweak-tool
+google-chrome-stable
 htop
 iftop
 imagemagick
@@ -19,11 +20,11 @@ preload
 rdesktop
 ruby-dev
 ruby2.0
+samba
 screen
+sendmail
 ssh
 vim
 xdotool
 xsel
 xvkbd
-samba
-cifs-utils
