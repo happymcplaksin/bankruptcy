@@ -12,6 +12,7 @@ iftop
 imagemagick
 iotop
 ispell
+ldap-utils
 mailutils
 ntp
 openjdk-7-jdk 
@@ -23,7 +24,9 @@ ruby2.0
 samba
 screen
 sendmail
+sipcalc
 ssh
+unity-tweak-tool
 vim
 xdotool
 xsel
