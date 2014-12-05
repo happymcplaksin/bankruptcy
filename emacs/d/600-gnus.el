@@ -64,3 +64,5 @@
 (gnus-topic-mode)
 
 (setq gnus-subscribe-newsgroup-method 'gnus-subscribe-killed)
+
+(setq gnutls-min-prime-bits 1024)

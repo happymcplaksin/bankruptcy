@@ -1,8 +1,10 @@
 fog
 httpclient
 influxdb
+mail
 pry
 rake
 rbvmomi
 rvc
+ucslib
 yard

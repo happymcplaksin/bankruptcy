@@ -30,3 +30,6 @@
 (global-set-key "\C-csw" 'ispell-word)
 (global-set-key "\C-csb" 'ispell-buffer)
 (global-set-key "\C-csr" 'ispell-region)
+
+(require 'flymake-puppet)
+(add-hook 'puppet-mode-hook (lambda () (flymake-puppet-load)))
