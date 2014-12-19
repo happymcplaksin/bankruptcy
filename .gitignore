@@ -4,3 +4,6 @@ emacs/d/000-secret.el
 helm-noodle-multi-term.el
 customized
 customized~
+bin/noodle
+bin/noodle.osho
+bin/sc
