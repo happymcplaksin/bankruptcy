@@ -13,6 +13,7 @@ htop
 iftop
 imagemagick
 iotop
+iperf
 ispell
 ldap-utils
 mailutils
@@ -33,11 +34,11 @@ sipcalc
 ssh
 sysvbanner
 tcptraceroute
-unit
-y-tweak-tool
+unity-tweak-tool
 vim
 whois
 wireshark
+xclip
 xdotool
 xsel
 xvkbd
