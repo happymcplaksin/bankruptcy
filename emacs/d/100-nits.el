@@ -33,3 +33,8 @@
 
 (require 'flymake-puppet)
 (add-hook 'puppet-mode-hook (lambda () (flymake-puppet-load)))
+
+(require 'el-pocket)
+(el-pocket-load-auth)
+
+(setq puppet-lint-command "puppet-lint --no-80chars-check --with-context --log-format \"%{path}:%{linenumber}: %{kind}: %{message} (%{check})\"")
