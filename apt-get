@@ -25,6 +25,7 @@ preload
 python-dev
 python-pip
 rdesktop
+rpm
 ruby-dev
 ruby2.0
 samba
@@ -33,6 +34,7 @@ sendmail
 sipcalc
 ssh
 sysvbanner
+traceroute
 tcptraceroute
 unity-tweak-tool
 vim
