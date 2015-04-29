@@ -12,7 +12,7 @@
 (erc-autoaway-mode)
 
 (setq
- erc-autojoin-channels-alist (quote (("freenode.net" "#noodle" "#peachnet" "#grafana" "#teamdowntime" "#yaketystats")))
+ erc-autojoin-channels-alist (quote (("freenode.net" "#noodle" "#peachnet" "#teamdowntime" "#yaketystats")))
  erc-join-buffer 'buffer)
 (erc-autojoin-mode)
 
@@ -38,7 +38,7 @@
 
 (erc-services-mode)
 
-(erc :server "irc.freenode.net")
-(erc :server "localhost")
+;(erc :server "irc.freenode.net")
+;(erc :server "localhost")
 
 ;; (erc-scrolltobottom-mode)
