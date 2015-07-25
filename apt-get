@@ -30,12 +30,14 @@ ruby-dev
 ruby2.0
 samba
 screen
+scsitools
 sendmail
 sipcalc
 ssh
 sysvbanner
-traceroute
 tcptraceroute
+tftp
+traceroute
 unity-tweak-tool
 vim
 whois
