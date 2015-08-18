@@ -46,3 +46,7 @@ xclip
 xdotool
 xsel
 xvkbd
+
+libxml-xpath-perl
+
+xml-twig-tools
