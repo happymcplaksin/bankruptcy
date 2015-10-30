@@ -4,186 +4,156 @@
 #
 # Straight from the Gnus Group buffer.
 
-        [ work feeds -- 25 ]
-               1: gmane.comp.db.redis.general
-               0: gmane.comp.db.rrdtool.devel
-               0: gmane.comp.db.rrdtool.user
-               6: gmane.comp.sysutils.logstash.devel
-               5: gmane.comp.sysutils.logstash.user
-               0: gmane.comp.sysutils.puppet.devel
-               0: gmane.discuss
-               0: gmane.linux.redhat.fedora.directory.devel
-               0: gmane.mail.imap.offlineimap.general
-               0: gmane.org.user-groups.sysadmin.lopsa.tech
-            [ announce -- 0 ]
-                   0: gmane.comp.apache.announce
-                   0: gmane.comp.db.rrdtool.announce
-                   0: gmane.comp.encryption.gpg.announce
-                   0: gmane.comp.encryption.openssl.announce
-                   0: gmane.comp.gcc.announce
-                   0: gmane.comp.gdb.announce
-                   0: gmane.comp.gnome.apps.gnucash.announce
-                   0: gmane.comp.gnu.aspell.announce
-                   0: gmane.comp.tools.sudo.announce
-                   0: gmane.comp.web.curl.announce
-                   0: gmane.emacs.xemacs.announce
-                   0: gmane.linux.debian.user.news
-                   0: gmane.linux.kernel.announce
-                   0: gmane.linux.redhat.enterprise.announce
-                   0: gmane.linux.redhat.release.nahant
-                   0: gmane.linux.redhat.release.tikanga.beta
-                   0: gmane.linux.redhat.rhel5.announce
-                   0: gmane.linux.redhat.rhn.outages
-                   0: gmane.linux.ubuntu.announce
-                   0: gmane.linux.ubuntu.news
-                   0: gmane.linux.ubuntu.security.announce
-                   0: gmane.network.dns.bind.announce
-                   0: gmane.network.nagios.announce
-                   0: gmane.network.openssh.announce
-                   0: gmane.network.putty.announce
-                   0: gmane.org.wikimedia.mediawiki.announce
-            [ usg -- 0 ]
-                   0: gwene.edu.usg.bor.stats
-                   0: gwene.edu.usg.status.external
-            [ uga -- 0 ]
-                   0: gwene.com.georgiadogs.sports.w-gym.headline
-                   0: gwene.com.georgiadogs.sports.w-soccer.headline
-                   0: gwene.com.georgiadogs.sports.w-volley.headline
-            [ emacs -- 13 ]
-                   0: gmane.comp.web.w3m.devel
-                   0: gmane.emacs.bbdb.user
-                   2: gmane.emacs.devel
-                  10: gmane.emacs.diffs
-                   0: gmane.emacs.emacspeak.general
-                   0: gmane.emacs.erc.general
-                   0: gmane.emacs.gnus.cvs
-                   1: gmane.emacs.gnus.general
-                   0: gmane.emacs.gnus.user
-                   0: gmane.emacs.sources
-                   0: gmane.emacs.w3m
-            [ friends -- 0 ]
-                   0: gwene.com.bernijohnson
-                   0: gwene.com.blogspot.artjourneyer
-                   0: gwene.com.blogspot.oobx
-                   0: gwene.com.diigo.rss.network.happymcplaksin
-                   0: gwene.com.ezrasf.wplog
-                   0: gwene.com.paulstradamus.blog
-                   0: gwene.com.samrowe.wordpress
-                   0: gwene.in.pinboard.riddley
-                   0: gwene.net.noserose.e.life.notes
-                   0: gwene.org.mcplaksin.happy
-                   0: gwene.us.technical.issues.beanbag
-            [ famous people -- 0 ]
-                   0: gwene.com.aphyr
-                   0: gwene.com.blogspot.lusislog
-                   0: gwene.com.blogspot.starnixhacks
-                   0: gwene.com.blogspot.steve-yegge
-                   0: gwene.com.blogspot.sysadvent
-                   0: gwene.com.brepettis.blog
-                   0: gwene.com.feedburner.feeds2.kartarnets
-                   0: gwene.com.feedburner.semicomplete.main
-                   0: gwene.com.mark.shuttleworth
-                   0: gwene.com.mseanmcgee
-                   0: gwene.com.norvig.rss-feed
-                   0: gwene.com.obfuscurity
-                   0: gwene.com.randsinrepose
-                   0: gwene.com.tromey.blog
-                   0: gwene.com.xkcd
-                   0: gwene.com.xkcd.blag
-                   0: gwene.com.xkcd.what-if
-                   0: gwene.fr.masterzen
-                   0: gwene.info.danjou.julien.blog
-                   0: gwene.io.github.nanliu
-                   0: gwene.jp.ne.hatena.d.rubikitch
-                   0: gwene.net.edgeofsanity
-                   0: gwene.net.ipspace.blog
-                   0: gwene.net.something.sinistral.blog
-                   0: gwene.org.doublecloud
-                   0: gwene.org.enja
-                   0: gwene.org.theforeman.blog
-                   0: gwene.org.wingolog
-                   0: nntp+news.gwene.org:gwene.no.ingebrigtsen.lars
-            [ google feeds -- 0 ]
-                   0: gwene.com.blogspot.chrome
-                   0: gwene.com.blogspot.chromevox
-                   0: gwene.com.blogspot.gmailblog
-                   0: gwene.com.blogspot.googleblog
-                   0: gwene.com.blogspot.googlechrome.releases
-                   0: gwene.com.blogspot.googlephotos
-                   0: gwene.com.blogspot.googleresearch
-                   0: gwene.com.blogspot.googlevoice
-                   0: gwene.com.downloadsquad.category.google
-                   0: gwene.com.feedburner.google.operating.system
-                   0: gwene.org.chromium.blog
-            [ companies -- 0 ]
-                   0: gwene.ch.oetiker.insights.op
-                   0: gwene.com.ajaxian
-                   0: gwene.com.bladesmadesimp
-                   0: gwene.com.blogspot.cisco.servergeek
-                   0: gwene.com.blogspot.ucstech
-                   0: gwene.com.etsy.codeascraft
-                   0: gwene.com.feedburner.planetpuppet
-                   0: gwene.com.github.blog.new
-                   0: gwene.com.github.happymcplaksin.private.atom
-                   0: gwene.com.high.scalability
-                   0: gwene.com.hulu.tech.blog
-                   0: gwene.com.metafor.software
-                   0: gwene.com.mongotips
-                   0: gwene.com.netflix.blog
-                   0: gwene.com.netflix.techblog
-                   0: gwene.com.opsview.labs
-                   0: gwene.com.planetsysadmin
-                   0: gwene.com.railstips
-                   0: gwene.com.storytelling.withdata
-                   0: gwene.com.twitter.blog
-                   0: gwene.com.unified.computing.blog
-                   0: gwene.nl.phusion.blog
-            [ misc feeds -- 0 ]
-                   0: gwene.com.blogspot.emacs-fu.feeds.posts.default.alt
-                   0: gwene.com.blogspot.emacspeak
-                   0: gwene.com.delicious.blog
-                   0: gwene.com.delicious.blog.new
-                   0: gwene.com.feedburner.anythingbut.ipod
-                   0: gwene.com.folkalley
-                   0: gwene.com.goodlovelies
-                   0: gwene.com.myspace.solstice.sisters
-                   0: gwene.de.randomsample.dru5.blog
-                   0: gwene.net.freenode.blog
-                   0: gwene.net.unixdaemon
-                   0: gwene.org.bitlbee.news.rss
-                   0: gwene.org.codeflow
-                   0: gwene.org.debian-admin
-                   0: gwene.org.elasticsearch
-                   0: gwene.org.emacsen.planet
-                   0: gwene.org.evergreen-ils.blog
-                   0: gwene.org.kerneltrap
-                   0: gwene.org.lusis.blog
-                   0: gwene.org.mongodb.blog
-                   0: gwene.org.ruby-lang.news.en
-            [ virt -- 0 ]
-                   0: gwene.ca.theclouds
-                   0: gwene.com.blogspot.derek858
-                   0: gwene.com.bradhedlund
-                   0: gwene.com.cloudactual
-                   0: gwene.com.feedburner.kendrick.coleman
-                   0: gwene.com.gabesvirtual.world
-                   0: gwene.com.hypervizor
-                   0: gwene.com.jeffsaidso
-                   0: gwene.com.laneroush
-                   0: gwene.com.longwhitecloud
-                   0: gwene.com.punchingclouds
-                   0: gwene.com.typepad.virtualgeek
-                   0: gwene.com.viewyonder
-                   0: gwene.com.virtual-blog
-                   0: gwene.com.virtualkenneth
-                   0: gwene.com.virtuallyghett
-                   0: gwene.com.vmware.blogs.esxi
-                   0: gwene.com.vmware.blogs.performance
-                   0: gwene.com.yellow-bricks
-                   0: gwene.info.it20
-                   0: gwene.info.lucd
-                   0: gwene.net.boche.blog
-                   0: gwene.net.virtu-al
-                   0: gwene.nl.frankdenneman
-                   0: gwene.org.scottlowe.blog
-                   0: gwene.us.chriscolotti
+    [ Feeds -- 328 ]
+            gmane.comp.apache.announce
+            gmane.comp.db.influxdb
+            gmane.comp.db.rrdtool.devel
+            gmane.comp.encryption.openssl.announce
+            gmane.comp.gnu.aspell.announce
+            gmane.comp.sysutils.puppet.devel
+            gmane.comp.sysutils.puppet.user
+            gmane.comp.tools.sudo.announce
+            gmane.comp.web.curl.announce
+            gmane.comp.web.w3m.devel
+            gmane.discuss
+            gmane.emacs.bbdb.user
+            gmane.emacs.devel
+            gmane.emacs.emacspeak.general
+            gmane.emacs.erc.general
+            gmane.emacs.gnus.cvs
+            gmane.emacs.gnus.general
+            gmane.emacs.sources
+            gmane.emacs.xemacs.announce
+            gmane.linux.kernel.announce
+            gmane.linux.redhat.enterprise.announce
+            gmane.linux.redhat.release.nahant
+            gmane.linux.redhat.release.tikanga.beta
+            gmane.linux.redhat.rhel5.announce
+            gmane.linux.redhat.rhn.outages
+            gmane.linux.ubuntu.announce
+            gmane.linux.ubuntu.news
+            gmane.linux.ubuntu.security.announce
+            gmane.network.dns.bind.announce
+            gmane.network.nagios.announce
+            gmane.network.openssh.announce
+            gmane.network.putty.announce
+            gmane.org.user-groups.sysadmin.lopsa.tech
+            gmane.org.wikimedia.mediawiki.announce
+            gwene.ch.oetiker.insights.op
+            gwene.com.aphyr
+            gwene.com.bernijohnson
+            gwene.com.bladesmadesimp
+            gwene.com.blogspot.artjourneyer
+            gwene.com.blogspot.chrome
+            gwene.com.blogspot.chromevox
+            gwene.com.blogspot.cisco.servergeek
+            gwene.com.blogspot.derek858
+            gwene.com.blogspot.emacs-fu.feeds.posts.default.alt
+            gwene.com.blogspot.emacspeak
+            gwene.com.blogspot.gmailblog
+            gwene.com.blogspot.googleblog
+            gwene.com.blogspot.googlechrome.releases
+            gwene.com.blogspot.googlephotos
+            gwene.com.blogspot.googleresearch
+            gwene.com.blogspot.googlevoice
+            gwene.com.blogspot.lusislog
+            gwene.com.blogspot.oobx
+            gwene.com.blogspot.steve-yegge
+            gwene.com.blogspot.sysadvent
+            gwene.com.blogspot.ucstech
+            gwene.com.bradhedlund
+            gwene.com.brepettis.blog
+            gwene.com.cloudactual
+            gwene.com.delicious.blog
+            gwene.com.delicious.blog.new
+            gwene.com.diigo.rss.network.happymcplaksin
+            gwene.com.downloadsquad.category.google
+            gwene.com.duosecurity.blog
+            gwene.com.etsy.codeascraft
+            gwene.com.ezrasf.wplog
+            gwene.com.feedburner.anythingbut.ipod
+            gwene.com.feedburner.feeds2.kartarnets
+            gwene.com.feedburner.google.operating.system
+            gwene.com.feedburner.kendrick.coleman
+            gwene.com.feedburner.planetpuppet
+            gwene.com.feedburner.semicomplete.main
+            gwene.com.folkalley
+            gwene.com.gabesvirtual.world
+            gwene.com.georgiadogs.sports.w-gym.headline
+            gwene.com.georgiadogs.sports.w-soccer.headline
+            gwene.com.georgiadogs.sports.w-volley.headline
+            gwene.com.github.blog.new
+            gwene.com.github.happymcplaksin.private.atom
+            gwene.com.goodlovelies
+            gwene.com.hulu.tech.blog
+            gwene.com.hypervizor
+            gwene.com.jeffsaidso
+            gwene.com.laneroush
+            gwene.com.longwhitecloud
+            gwene.com.mark.shuttleworth
+            gwene.com.mongotips
+            gwene.com.mseanmcgee
+            gwene.com.myspace.solstice.sisters
+            gwene.com.netflix.blog
+            gwene.com.netflix.techblog
+            gwene.com.norvig.rss-feed
+            gwene.com.obfuscurity
+            gwene.com.opsview.labs
+            gwene.com.paulstradamus.blog
+            gwene.com.planetsysadmin
+            gwene.com.punchingclouds
+            gwene.com.railstips
+            gwene.com.samrowe.wordpress
+            gwene.com.tromey.blog
+            gwene.com.twitter.blog
+            gwene.com.unified.computing.blog
+            gwene.com.viewyonder
+            gwene.com.virtual-blog
+            gwene.com.virtualkenneth
+            gwene.com.virtuallyghett
+            gwene.com.vmware.blogs.esxi
+            gwene.com.vmware.blogs.performance
+            gwene.com.xkcd
+            gwene.com.xkcd.blag
+            gwene.com.xkcd.what-if
+            gwene.com.yellow-bricks
+            gwene.de.randomsample.dru5.blog
+            gwene.edu.usg.bor.stats
+            gwene.edu.usg.status.external
+            gwene.fr.masterzen
+            gwene.in.pinboard.riddley
+            gwene.info.danjou.julien.blog
+            gwene.info.it20
+            gwene.info.lucd
+            gwene.io.github.nanliu
+            gwene.io.raintank.blog
+            gwene.jp.ne.hatena.d.rubikitch
+            gwene.net.boche.blog
+            gwene.net.edgeofsanity
+            gwene.net.freenode.blog
+            gwene.net.noserose.e.life.notes
+            gwene.net.something.sinistral.blog
+            gwene.net.unixdaemon
+            gwene.net.virtu-al
+            gwene.nl.frankdenneman
+            gwene.nl.phusion.blog
+            gwene.no.ingebrigtsen.lars
+            gwene.org.bitlbee.news.rss
+            gwene.org.chromium.blog
+            gwene.org.codeflow
+            gwene.org.doublecloud
+            gwene.org.elasticsearch
+            gwene.org.enja
+            gwene.org.evergreen-ils.blog
+            gwene.org.gluu.blog
+            gwene.org.kerneltrap
+            gwene.org.lusis.blog
+            gwene.org.mcplaksin.happy
+            gwene.org.mongodb.blog
+            gwene.org.ruby-lang.news.en
+            gwene.org.scottlowe.blog
+            gwene.org.theforeman.blog
+            gwene.org.wingolog
+            gwene.us.chriscolotti
+            gwene.us.technical.issues.beanbag
+            nntp+news.gwene.org:gwene.com.intridea
