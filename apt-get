@@ -34,7 +34,7 @@ screen
 scsitools
 sendmail
 sipcalc
-sqlite
+sqlite3
 ssh
 sysvbanner
 tcptraceroute
