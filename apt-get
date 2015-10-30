@@ -16,6 +16,7 @@ iotop
 iperf
 ispell
 ldap-utils
+libxml-xpath-perl
 mailutils
 ntp
 openjdk-7-jdk 
@@ -37,7 +38,6 @@ ssh
 sysvbanner
 tcptraceroute
 tftp
-traceroute
 unity-tweak-tool
 vim
 whois
@@ -46,7 +46,4 @@ xclip
 xdotool
 xsel
 xvkbd
-
-libxml-xpath-perl
-
 xml-twig-tools
