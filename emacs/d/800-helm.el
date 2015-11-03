@@ -20,6 +20,9 @@
     (setq helm-source-buffers-list
           (helm-make-source "Buffers" 'helm-source-buffers)))
   (let ((helm-ff-transformer-show-only-basename nil))
+    (setq debug-on-error t)
     (helm :sources helm-happy-sources
           :buffer "*helm happy*"
-          :truncate-lines t)))
+          :truncate-lines t)
+    (setq debug-on-error nil)
+    ))
