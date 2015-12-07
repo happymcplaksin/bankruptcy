@@ -9,7 +9,7 @@
 		    (interactive)
 		    (message "Saved your own butt, didn't you?")))
 
-(define-key gnus-group-mode-map "z" 'helm-happy)
+(define-key gnus-group-mode-map "z" 'helm-mini)
 
 (setq
  gnus-list-groups-with-ticked-articles nil

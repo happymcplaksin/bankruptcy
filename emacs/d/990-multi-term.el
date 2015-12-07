@@ -46,8 +46,8 @@
 ;; Make ESC just be ESC!
 (define-key term-raw-map [27] 'term-send-raw)
 ;; Put helm on C-^
-(define-key term-raw-map "\C-^" 'helm-happy)
-(define-key term-raw-map (kbd "C-6") 'helm-happy)
+(define-key term-raw-map "\C-^" 'helm-mini)
+(define-key term-raw-map (kbd "C-6") 'helm-mini)
 
 ;; My keyboard cut-and-paste
 ;;
