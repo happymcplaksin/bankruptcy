@@ -1,4 +1,3 @@
-(require 'helm-noodle-multi-term)
 
 (helm-mode)
 (global-set-key (kbd "C-^") 'helm-happy)
@@ -6,11 +5,18 @@
 (setq helm-idle-delay 0.05)
 (setq helm-input-idle-delay .05)
 
-(setq helm-happy-sources '(
-                         helm-source-noodle
-			 helm-source-buffers-list
-                         helm-source-multi-term
-			 helm-source-recentf))
+(if work
+  (progn
+    (require 'helm-noodle-multi-term)
+    (setq helm-happy-sources '(
+                           helm-source-noodle
+			   helm-source-buffers-list
+                           helm-source-multi-term
+			   helm-source-recentf)))
+  (setq helm-happy-sources '(
+			   helm-source-buffers-list
+                           helm-source-multi-term
+			   helm-source-recentf)))
 
 (defun helm-happy ()
   "helm-happy, duped helm-mini plus changes"

@@ -15,15 +15,22 @@
 (display-time)
 
 (setq-default indent-tabs-mode nil)
-(setq tab-width 4)
-(setq puppet-indent-level 4)
-(setq ruby-indent-level 4)
 
 (global-set-key "\C-cj" 'goto-line)
 
-(require 'edit-server)
-(edit-server-start)
-(setq edit-server-new-frame nil)
+(setq work (equal (system-name) "empathy"))
+
+(if work
+  (progn
+    (setq my-tab-width 4)
+    (require 'edit-server)
+    (edit-server-start)
+    (setq edit-server-new-frame nil))
+    (setq my-tab-width 4))
+
+(setq tab-width my-tab-width)
+(setq puppet-indent-level my-tab-width)
+(setq ruby-indent-level my-tab-width)
 
 (setq ispell-silently-savep t)
 (setq ispell-program-name "ispell")
